@@ -1,4 +1,4 @@
-﻿## Detecting artist identity in rap lyrics using NLP
+﻿## Detecting artist identity from rap lyrics using NLP
 
 This project aims to explore whether the identity of popular rap artists can be predicted by employing supervised and unsupervised learning techniques.
 
