@@ -19,6 +19,7 @@ A Bag of Words (BOW) approach was utilized that represents each song as a multis
 As the depth of features generated would present dimensionality issues, a method for reducing dimensionality was required. It has been previously suggested that [PCA is the optimal approach for dimension reduction with PCA](http://cs229.stanford.edu/proj2017/final-reports/5163902.pdf). Accordingly PCA was applied to to BOW results.
 
 PCA was not as effective as hoped in condensing explained variability into the seperate Principal Components. However, due to dimensionality concerns and the strong possibility of overfitting to the BOW results, the first 4 Principal Components were utilized in our models and clusters. These first 4 Principal Components accounted for 12% of the explained variance in the 170 feature deep BOW data.
+
 ![pcaimage.png](https://github.com/seanmcmanus13/Portfolio/blob/master/Using%20Doc2Vec,%20TSNE,%20BOW%20and%20PCA%20to%20predict%20artist%20identity%20in%20rap%20songs/Images/pcaimage.png?raw=true)
 
 Of note, is that the some meaning is lost in BOW models due to the fact that they disregards grammar and word order. Accordingly, a variation of the Word2Vec approach called Doc2Vec was used at the song level in order to establish a numeric measure of the themes and ideas at the song level.
