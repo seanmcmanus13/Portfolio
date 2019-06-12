@@ -65,6 +65,7 @@ A Gaussian Mixture Clustering was also applied which did not lead to clear clust
 
 ![enter image description here](https://github.com/seanmcmanus13/Portfolio/blob/master/Using%20Doc2Vec,%20TSNE,%20BOW%20and%20PCA%20to%20predict%20artist%20identity%20in%20rap%20songs/Images/gmversusartists.png?raw=true)
 Clustering results matrix:
+
 |                      |2Pac|Big Daddy Kane|Busta Rhymes|Common|Dilated Peoples|E-40|Eminem|J.Cole|Jeezy|Kanye West|Kendrick Lamar|Mac Miller|Nas|OutKast|Snoop Dogg|T.I.|The Notorious B.I.G.|All|
 |----------------------|----|--------------|------------|------|---------------|----|------|------|-----|----------|--------------|----------|---|-------|----------|----|--------------------|---|
 |2Pac                  |0   |0             |2           |0     |46             |3   |1     |1     |1    |4         |1             |0         |0  |1      |2         |1   |1                   |64 |
