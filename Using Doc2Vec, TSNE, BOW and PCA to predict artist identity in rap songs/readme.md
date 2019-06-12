@@ -50,8 +50,7 @@ Clustering results using DOC2VEC and TSNE showed that songs for clustered togeth
 
 Accordingly, TSNE results were plotted by artist level centroids. The graph below presents these results with the size of each datapoint representing the standard deviation along the X-axis (which closely approximates the standard deviation along the Y-axis).
 
-(https://github.com/seanmcmanus13/Portfolio/blob/master/Using%20Doc2Vec,%20TSNE,%20BOW%20and%20PCA%20to%20predict%20artist%20identity%20in%20rap%20songs/Images/Doc2Vec%20TSNE%20centroids%20plotted%20by%20artist%20(size%20corresponds%20to%20standard%20deviation%20along%20x-axis).png?raw=true?raw=true)
-
+![enter image description here](https://github.com/seanmcmanus13/Portfolio/blob/master/Using%20Doc2Vec,%20TSNE,%20BOW%20and%20PCA%20to%20predict%20artist%20identity%20in%20rap%20songs/Images/Doc2Vec%20TSNE%20centroids%20plotted%20by%20artist%20(size%20corresponds%20to%20standard%20deviation%20along%20x-axis).png?raw=true?raw=true)
 
 
 The TSNE plot above suggests that there are artist level differences in DOC2VEC results, but these differences aren't sufficient to form clearly resolved clusters at the artist level.
