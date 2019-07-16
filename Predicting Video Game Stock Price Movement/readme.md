@@ -47,6 +47,7 @@ From these data sources a number of features will be generated. Including rollin
 All other features will be manually generated using mathematically formula previously described in the literature [1]. A selection of these features are displayed below:
 
 ![Fig 2: Financial Indicators utilized as part of this analysis.](https://github.com/seanmcmanus13/Portfolio/blob/master/Predicting%20Video%20Game%20Stock%20Price%20Movement/Images/variables.png?raw=true)
+
 **Fig 2: Financial Indicators utilized as part of this analysis.**
 
 ## Methodology:
