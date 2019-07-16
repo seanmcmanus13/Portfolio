@@ -55,6 +55,7 @@ The methodology employed here can broadly be considered a kind of meta-modelling
 The prediction of stock price is a notably difficult problem and has been a frequent area of interest in popular Data Science [3, 4]. The majority of these models are however *not* predicting future stock price, they are simply projecting the current day stock price 1 day into the future:
 
 ![Fig 3: Simple Neural Networks cannot predict stock price this accurately. This is simply a misinterpretation and misplotting of a model predicting the current day price from the current day value.](https://miro.medium.com/max/800/1*YkfE7NRM2qJVRN2HCv1hhw.png)
+
 **Fig 3: Simple Neural Networks cannot predict stock price this accurately. This is simply a misinterpretation and misplotting of a model predicting the current day price from the current day value.**
 
 ## References:
