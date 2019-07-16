@@ -20,6 +20,8 @@ The first critical question in this regard is where can one derive hidden inform
 
 ![Fig 1: Games are increasingly being played and tracked online. This may be a lucrative trove for informed investors](https://github.com/seanmcmanus13/Portfolio/blob/master/Predicting%20Video%20Game%20Stock%20Price%20Movement/Images/twitchtrends.png?raw=true)
 
+Fig 1: Games are increasingly being played and tracked online. This may be a lucrative trove for informed investors
+
 This capstone will focus on predicting the price action of video game stocks based on time series analyses of both online streaming data and derived financial indictors. Due to the provenance of large amounts of data in both of these domains, we will initially build a model on one indicator company and see if this model can be applied to other companies, first without reteaching based on that model and if required, with reteaching. Based on the provenance of available data, the following companies may be considered using this methodology:
 
 <h1><center> Companies of interest: </center></h1>
@@ -46,6 +48,7 @@ All other features will be manually generated using mathematically formula previ
 
 ![Fig 2: Financial Indicators utilized as part of this analysis.](https://github.com/seanmcmanus13/Portfolio/blob/master/Predicting%20Video%20Game%20Stock%20Price%20Movement/Images/variables.png?raw=true)
 
+Fig 2: Financial Indicators utilized as part of this analysis.
 
 ## Methodology:
 The methodology employed here can broadly be considered a kind of meta-modelling. A broad range of financial indicators, including indices and oscillators are fed into both Random Forest and Long Short Term Memory models for both auto-regressive prediction of future stock price and classification of stock price directional movement, where 1 equals an increase and 0 a decrease.
@@ -54,6 +57,7 @@ The prediction of stock price is a notably difficult problem and has been a freq
 
 ![Fig 3: Simple Neural Networks cannot predict stock price this accurately. This is simply a misinterpretation and misplotting of a model predicting the current day price from the current day value.](https://miro.medium.com/max/800/1*YkfE7NRM2qJVRN2HCv1hhw.png)
 
+Fig 3: Simple Neural Networks cannot predict stock price this accurately. This is simply a misinterpretation and misplotting of a model predicting the current day price from the current day value.
 
 ## References:
 
